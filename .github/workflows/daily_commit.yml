@@ -1,0 +1,27 @@
+name: Daily Farm Growth
+
+on:
+  schedule:
+    - cron: '0 9 * * *' # Runs at 09:00 UTC every day
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  farm-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Run Committer
+        run: bun committer.ts
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add farm.txt
+          git commit -m "feat: farm growth [$(date)]" || echo "No changes to commit"
+          git push
