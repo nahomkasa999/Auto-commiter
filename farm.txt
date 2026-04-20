@@ -5,3 +5,4 @@
 [2026-04-18T09:45:24.411Z] Always bet on black.
 [2026-04-19T09:44:35.752Z] Avoid mixing Ginger Nuts with other biscuits, they contaminate. Keep separated. <- there is no green lights here hmm...
 [2026-04-19T21:32:36.089Z] Try buying a coffee for the creator of a free public API, now and then.
+[2026-04-20T10:46:35.371Z] Rule number 1: Try not to die. Rule number 2: Don't be a dick.
