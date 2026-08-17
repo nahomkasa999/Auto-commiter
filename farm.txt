@@ -120,3 +120,4 @@
 [2026-08-14T10:11:14.990Z] You don't need to floss all of your teeth. Only the ones you want to keep.
 [2026-08-15T09:31:51.324Z] Don't eat anything your grandparents wouldn't recognise as food.
 [2026-08-16T09:33:36.049Z] Don't drink bleach.
+[2026-08-17T09:50:44.247Z] Taking photos with tablet devices looks weird.
